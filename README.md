@@ -8,6 +8,7 @@ Functions.py imports random package and has 2 defined functions.
 
 ## getWord()
 - Opens and saves 'MissMeyers.txt' file contents onto a string, which then filters out words that are smaller than 3 letters and isn't purely constructed of letters.
+- Will then pick a word at random of the filtered string and return it.
   
 ## displayHangman(lettersGuessed, tries)
 - Takes string lettersGuessed and int tries then displays the current state of the hangman based on the tries value.
