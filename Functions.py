@@ -15,7 +15,7 @@ def getWord():
     return word
 
 #Display the current state of the "Hangman"
-#Assumes max tries is 6
+#Assumes max value tries is 6 and minimum is 0
 def displayHangman(lettersGuessed, tries):
     
     print('---------')
